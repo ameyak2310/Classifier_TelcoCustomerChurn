@@ -1,2 +1,2 @@
-# Classifier_TelcoCustomerChurn
+# Classifier for Telco Customer Churn Identification
 Telco Customer Churn - Focused customer retention programs
