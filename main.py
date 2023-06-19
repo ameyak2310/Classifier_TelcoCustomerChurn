@@ -14,6 +14,8 @@ from src.predict_single import predict_single
 app = Flask("churn")
 
 with open("bin/churn-model.bin", "rb") as f_in:
+    """Loads encoder and model from binaries
+    """
     dv, model = pickle.load(f_in)
 
 
